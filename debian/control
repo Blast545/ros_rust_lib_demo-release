@@ -1,0 +1,12 @@
+Source: ros-rolling-ros-rust-lib-demo
+Section: misc
+Priority: optional
+Maintainer: Test User <test@example.com>
+Build-Depends: debhelper (>= 9.0.0), cargo, cargo-auditable, dh-cargo, rustc
+Homepage: https://index.ros.org/p/ros_rust_lib_demo/#rolling
+Standards-Version: 4.6.0
+
+Package: ros-rolling-ros-rust-lib-demo
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, 
+Description: Minimal ROS Rust library crate, dependency of ros_rust_app_demo.
